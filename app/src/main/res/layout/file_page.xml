@@ -7,4 +7,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.marrache.nathan.uitut.FilePage">
 
+    <!--this should have our load and save and maybe the microphone record button
+        I'd also like to have the current file loaded as a textview-->
+
 </RelativeLayout>

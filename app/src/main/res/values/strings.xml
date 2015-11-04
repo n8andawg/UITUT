@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">UITUT</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="effects_button_name">Effects</string>
+    <string name="sensortag_button_name">SensorTag Connect</string>
+    <string name="files_button_name">Files</string>
 </resources>

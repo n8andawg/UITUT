@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.marrache.nathan.uitut.FilePage">
-
-    <!--this should have our load and save and maybe the microphone record button
-        I'd also like to have the current file loaded as a textview-->
-
-</RelativeLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Load, Save, Record or Playback your file. \n \n \n"
+        android:padding="10dp"
+        android:textColor="#25383C"
+        />
+    <Button
+        android:id="@+id/buttonLoad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Load"/>
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+    <Button
+        android:id="@+id/buttonRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Record"/>
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"/>
+</LinearLayout>

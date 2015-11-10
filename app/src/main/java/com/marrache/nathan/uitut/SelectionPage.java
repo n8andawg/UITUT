@@ -12,8 +12,7 @@ import android.widget.Button;
 public class SelectionPage extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.content_main2);
 
         Button efct_btn = (Button) findViewById(R.id.effects_button);
         efct_btn.setOnClickListener(new View.OnClickListener() {
@@ -32,7 +31,5 @@ public class SelectionPage extends AppCompatActivity{
                 startActivity(file_intent);
             }
         });
-        }
-
-
+    }
 }

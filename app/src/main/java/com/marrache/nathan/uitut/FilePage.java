@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class FilePage extends Activity {
 
-    private static String logtag = "Buttons";//for use as the tag when logging
+    private static String logtag = "FilePageButtons";//for use as the tag when logging
 
     /** Called when the activity is first created. */
     @Override

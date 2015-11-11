@@ -38,7 +38,7 @@
     <!--This will house the text to change-->
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:paddingTop="20dp">
         <TextView
             android:layout_width="fill_parent"
@@ -51,17 +51,19 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="150dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:baselineAligned="false">
         <Button
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/use_gain_button_text"
+            android:layout_width="105dp"
+            android:layout_height="80dp"
+            android:text="@string/use_mixing_button_text"
             android:id="@+id/use_button" />
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/androidguitarnotext"/>
+            android:layout_width="257dp"
+            android:layout_height="130dp"
+            android:background="@drawable/androidguitarnotext"
+            android:layout_marginLeft="20dp" />
     </LinearLayout>
 
 </LinearLayout>

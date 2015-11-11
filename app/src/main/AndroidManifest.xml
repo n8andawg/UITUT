@@ -24,6 +24,9 @@
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter></activity>
+        <activity android:name=".GainPage"></activity>
+        <activity android:name=".MixingPage"></activity>
+        <activity android:name=".SpeedPage"></activity>
     </application>
 
 </manifest>

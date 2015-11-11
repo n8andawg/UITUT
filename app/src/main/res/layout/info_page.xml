@@ -3,16 +3,17 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/mauvegradient">
 
 
 
-
+    <!--This layout has the butons-->
     <LinearLayout
+
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.25" >
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="wrap_content"
@@ -32,6 +33,35 @@
             android:layout_height="wrap_content"
             android:text="Mixing"
             android:id="@+id/mixing_button"/>
+    </LinearLayout>
+
+    <!--This will house the text to change-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/effect_info_text"
+            android:text="@string/gain_info_text"/>
+    </LinearLayout>
+
+    <!--This guy will have the botton logo and the USE button-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/use_gain_button_text"
+            android:id="@+id/use_button" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/androidguitarnotext"/>
     </LinearLayout>
 
 </LinearLayout>

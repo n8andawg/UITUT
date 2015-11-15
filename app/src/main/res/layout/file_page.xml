@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/purple"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -7,28 +8,46 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Load, Save, Record or Playback your file. \n \n \n"
+        android:text="LOAD, SAVE, RECORD OR PLAYBACK YOUR FILE. \n \n \n"
         android:padding="10dp"
         android:textColor="#25383C"
         />
     <Button
+        android:background="@color/blue"
         android:id="@+id/buttonLoad"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Load"/>
+
     <Button
+        android:background="@color/orange"
         android:id="@+id/buttonSave"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Save"/>
     <Button
+        android:background="@color/red"
         android:id="@+id/buttonRecord"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Record"/>
     <Button
+        android:background="@color/green"
         android:id="@+id/buttonPlay"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Play"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TOAST TEXT. \n \n \n"
+        android:padding="10dp"
+        android:textColor="#25383C"
+        />
+    <ImageView
+        android:id="@+id/androidguitarnotext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidguitarnotext"
+        android:layout_alignParentBottom="true"/>
 </LinearLayout>

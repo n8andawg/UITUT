@@ -10,4 +10,9 @@
     <string name="use_gain_button_text">USE Gain</string>
     <string name="use_speed_button_text">USE Speed</string>
     <string name="use_mixing_button_text">USE Mixing</string>
-</resources>
+    <color name="purple">#c941fd</color>
+    <color name="red">#ee2c2c</color>
+    <color name="green">#5e8d00</color>
+    <color name="blue">#4169e1</color>
+    <color name="orange">#e77e00</color>
+    </resources>

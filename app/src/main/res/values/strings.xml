@@ -10,4 +10,7 @@
     <string name="use_gain_button_text">USE Gain</string>
     <string name="use_speed_button_text">USE Speed</string>
     <string name="use_mixing_button_text">USE Mixing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>

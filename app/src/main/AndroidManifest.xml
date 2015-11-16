@@ -14,13 +14,12 @@
             android:name=".InfoPage"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" >
-
         </activity>
         <activity android:name=".FilePage" >
         </activity>
-        <activity android:name=".SelectionPage">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SelectionPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter></activity>

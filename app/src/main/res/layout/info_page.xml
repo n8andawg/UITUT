@@ -8,31 +8,35 @@
 
 
 
-    <!--This layout has the butons-->
+    <!--This layout has the buttons-->
     <LinearLayout
-
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25" >
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Gain"
-            android:id="@+id/gain_button"/>
+            android:id="@+id/gain_button"
+            android:layout_weight="1"
+            android:background="#ff99cc00"/>
 
         <Button
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Speed"
-            android:id="@+id/speed_button"/>
+            android:id="@+id/speed_button"
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mixing"
-            android:id="@+id/mixing_button"/>
+            android:id="@+id/mixing_button"
+            android:layout_weight="1"/>
     </LinearLayout>
 
     <!--This will house the text to change-->
@@ -40,14 +44,14 @@
         android:layout_width="fill_parent"
         android:layout_height="300dp"
         android:paddingTop="20dp">
+
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:id="@+id/effect_info_text"
-            android:text="@string/gain_info_text"/>
+            android:id="@+id/effect_info_text" />
     </LinearLayout>
 
-    <!--This guy will have the botton logo and the USE button-->
+    <!--This guy will have the button logo and the USE button-->
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="150dp"
@@ -58,8 +62,9 @@
 
             android:layout_width="105dp"
             android:layout_height="80dp"
-            android:text="@string/use_mixing_button_text"
+            android:text="@string/use_gain_button_text"
             android:id="@+id/use_button" />
+
         <ImageView
             android:layout_width="257dp"
             android:layout_height="130dp"
